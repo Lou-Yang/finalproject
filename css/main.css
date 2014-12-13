@@ -250,6 +250,7 @@ nav a:hover {
         float: right;
         width: 28%;
     }
+
 }
 
 @media only screen and (min-width: 1140px) {
@@ -370,6 +371,7 @@ nav a:hover {
     tr,
     img {
         page-break-inside: avoid;
+		
     }
 
     img {
