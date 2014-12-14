@@ -138,7 +138,7 @@ nav a:hover {
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 0px 3% 10px;
 }
 
 .footer-container footer {
@@ -184,9 +184,8 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
+        margin: 0 .5%;
+        padding: 10px;
         margin-bottom: 0;
     }
 
@@ -207,7 +206,7 @@ nav a:hover {
     }
 
     .oldie nav a {
-        margin: 0 0.7%;
+        margin: 0 0.2%;
     }
 }
 
@@ -229,12 +228,7 @@ nav a:hover {
    ============ */
 
     .title {
-        float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
+	text-align: center;
     }
 
 /* ============
@@ -248,8 +242,9 @@ nav a:hover {
 
     .main aside {
         float: right;
-        width: 28%;
+
     }
+
 }
 
 @media only screen and (min-width: 1140px) {
@@ -370,6 +365,7 @@ nav a:hover {
     tr,
     img {
         page-break-inside: avoid;
+		
     }
 
     img {
