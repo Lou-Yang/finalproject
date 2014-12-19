@@ -63,16 +63,13 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
+	background-color: #DDD;
 }
 
 .wrapper {
     width: 90%;
     margin: 0 5%;
 }
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
 
 .header-container {
     border-bottom: 20px solid #DED100;
@@ -84,14 +81,16 @@ body {
 }
 
 .header-container,
-.footer-container,
+.footer-container {
+    background-image: url("http://www.surftin.com/images/colorful-cool_685271.jpg");
+}
 .main aside {
-    background: #006449;
+	background-color: hsla(0,100%,100%,0.3);
 }
 
 .title {
     color: white;
-	font-size: 72px;
+	font-size: 80px;
 	font-style: italic;
 }
 
@@ -112,12 +111,12 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     color: white;
-    background: #006449;
+    background-color: hsla(0,100%,100%,0.3);
 }
 
 nav a:hover{
-    color: red;
-    text-decoration: underline;
+    color: #0035F8;
+  /*  text-decoration: none; */
 }
 
 /* ==============
@@ -125,7 +124,7 @@ nav a:hover{
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .main article h1 {
@@ -133,22 +132,15 @@ nav a:hover{
 }
 
 .main aside {
-    color: white;
+    color: black;
     padding: 0px 3% 10px;
 }
 
 .footer-container footer {
     color: white;
+	font-size: 20px;
     padding: 20px 0;
 	text-align: center;
-}
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
-
-.ie7 .title {
-    padding-top: 20px;
 }
 
 /* ==========================================================================
@@ -201,23 +193,14 @@ nav a:hover{
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+        -webkit-box-shadow: 0 5px 10px #555;
+           -moz-box-shadow: 0 5px 10px #555;
+                box-shadow: 0 5px 10px #555;
     }
-
-/* ============
-    WIDE: Menu
-   ============ */
 
     .title {
 	text-align: center;
     }
-
-/* ============
-    WIDE: Main
-   ============ */
-
     .main article {
         float: left;
         width: 57%;
@@ -315,25 +298,6 @@ nav a:hover{
         color: #000 !important;
         box-shadow: none !important;
         text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
     }
 
     pre,
