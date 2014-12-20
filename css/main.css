@@ -171,6 +171,7 @@ nav a:hover{
         margin: 0 .5%;
         padding: 10px;
         margin-bottom: 0;
+		font-size: 30px;
     }
 
     nav li:first-child a {
@@ -214,6 +215,15 @@ nav a:hover{
         float: left;
         width: 57%;
     }
+	.main article img {
+		margin: 20px;
+		padding: 20px;
+		background-color: white;
+		border: 10px solid #333;
+    }
+	.main article p{
+		font-size:
+    }
 
     .main aside {
         float: right;
@@ -230,7 +240,7 @@ nav a:hover{
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 1700px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
