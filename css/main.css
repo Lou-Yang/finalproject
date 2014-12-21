@@ -218,13 +218,15 @@ nav a:hover{
 	.main article img {
 		background-color: white;
 		border: 10px solid #333;
+		padding: 20px;
+		margin-bottom: 10px;
     }
     .main aside {
         float: right;
 		text-align: center;
     }
 	}
-	.image p {
+	.image p, .clear p, .clear-one p {
 	line-height: 1px;
 	font-weight: bold;
 	}
@@ -233,7 +235,7 @@ nav a:hover{
 	line-height: 1px;
 	font-weight: bold;
 	}
-	.f-one, .f-two, .f-three, .f-four, .f-five, .f-six {
+	.f-one, .f-two, .f-three, .f-four, .f-five, .f-six, .f-seventh, .f-eight, .f-ninth {
 	float: left;
 	margin-right: 20px;
 	}
@@ -271,7 +273,10 @@ nav a:hover{
     width: 0;
     height: 150%;
 }
-
+.image img {
+	padding: 5px;
+	margin-right: 10px;
+	}
 .hidden {
     display: none !important;
     visibility: hidden;
