@@ -127,10 +127,12 @@ nav a:hover{
 
 .main {
     padding: 20px 0;
+	font-size: 18px;
 }
 
 .main article h1 {
     font-size: 2em;
+	text-align: center;
 }
 
 .main aside {
@@ -213,8 +215,8 @@ nav a:hover{
     }
     .main article {
         float: left;
-        width: 57%;
-    }
+        width: 70%;
+    } 
 	.main article img {
 		background-color: white;
 		border: 10px solid #333;
@@ -273,10 +275,6 @@ nav a:hover{
     width: 0;
     height: 150%;
 }
-.image img {
-	padding: 5px;
-	margin-right: 10px;
-	}
 .hidden {
     display: none !important;
     visibility: hidden;
@@ -331,16 +329,6 @@ nav a:hover{
         color: #000 !important;
         box-shadow: none !important;
         text-shadow: none !important;
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
     }
 
     tr,
